@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-gitops
+  description: test
+  annotations:
+    github.com/project-slug: taha-idp-lab/test-gitops
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - fastapi
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/team-backend
+  system: idp-demo

@@ -1,0 +1,9 @@
+site_name: test-gitops
+site_description: test
+
+nav:
+  - Home: index.md
+  - Runbook: runbook.md
+
+plugins:
+  - techdocs-core
