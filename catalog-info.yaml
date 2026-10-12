@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: taha-idp-lab/test-gitops
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: test-gitops
+    argocd/app-name: test-gitops-dev
   tags:
     - python
     - fastapi
